@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;100&display=swap');
+@import url('https://fonts.google.com/noto/specimen/Noto+Serif+JP?preview.text=kohi');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: ; */
+    
+    
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /* max-width: 100vw; */
+    /* background-image: url(../Images/wp6511626.jpg);
+    background-size:contain; */
+    background-color: #fff;
+    font-family: Japanese;
+}
+
+div.feedback_body {
+    background-image: url(wp6511626.jpg);
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+div.feedback_content {
+    background: whitesmoke;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    height: 75%;
+    width: 60%;
+    padding: 20px;
+    
+}
+
+input.name_input {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: transparent;
+    background-color: #d3d3d3;
+    padding: 10px;
+    font-size: medium;
+}
+
+div.name {
+    /* width: 100%; */
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+div.review_body {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+table {
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+th {
+    width: 100px;
+    border: 1px solid black;
+}
+
+td.first {
+    width: 150px;
+}
+
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+div.suggestions {
+    margin-left: 45px;
+
+}
+
+h3.suggestions_title {
+
+    margin-bottom: 10px
+}
+
+textarea {
+    width: 95%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    font-size: medium;
+}
+
+button.submit_button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 700px;
+    
+}
+
+button.submit_button:hover {
+    background-color: #d3d3d3;
+}
+
+button.submit_button:active {
+    background-color: gray;
+}
